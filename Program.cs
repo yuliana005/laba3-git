@@ -41,6 +41,7 @@ namespace CalculatorApp
                         Console.WriteLine($"Результат: {a} - {b} = {a - b}");
                         break;
                     case "5":
+                        // Выполнение умножения для переменных a и b
                         Console.WriteLine($"Результат: {a} * {b} = {a * b}");
                         break;
                     case "6":
