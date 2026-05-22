@@ -44,6 +44,8 @@ namespace CalculatorApp
                         Console.WriteLine($"Результат: {a} * {b} = {a * b}");
                         break;
                     case "6":
+                        // Выполнения деления для переменных a и b с проверкой
+                        // b на ноль
                         if (b != 0)
                             Console.WriteLine($"Результат: {a} / {b} = {a / b}");
                         else
