@@ -35,6 +35,7 @@ namespace CalculatorApp
                         b = Convert.ToDouble(Console.ReadLine());
                         break;
                     case "3":
+                        // Выполнение сложения для переменных a и b
                         Console.WriteLine($"Результат: {a} + {b} = {a + b}");
                         break;
                     case "4":
